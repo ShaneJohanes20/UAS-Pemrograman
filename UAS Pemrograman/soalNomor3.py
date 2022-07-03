@@ -4,9 +4,11 @@ while True:
     user = input("Masukkan Angka : ")
     if user == 'n':
         break
+    x += 1
     data.append(user)
 
-jumlah = 0
+Ratarata = 0
 for nilai in data:
-    jumlah += int(nilai)
-print(jumlah)
+    Ratarata += int(nilai)
+Ratarata /= x
+print(Ratarata)
